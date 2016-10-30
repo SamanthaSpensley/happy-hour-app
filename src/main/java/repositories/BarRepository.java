@@ -10,6 +10,6 @@ import java.util.List;
 
 @Repository
 public interface BarRepository extends JpaRepository<BarInfo, Long> {
-    @Query("SELECT * FROM BarInfo")
+//    @Query("SELECT * FROM BarInfo")
     List<BarInfo>findAll();
 }
