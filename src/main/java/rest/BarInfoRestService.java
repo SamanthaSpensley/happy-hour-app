@@ -9,10 +9,6 @@ import services.BarService;
 
 import java.util.List;
 
-/**
- * Created by lisa on 10/30/16.
- */
-
 @RestController
 public class BarInfoRestService {
 
