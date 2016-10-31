@@ -1,8 +1,6 @@
 package models;
 
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
 
 @Entity
 @Table(name = "barInfo")
@@ -15,10 +13,10 @@ public class BarInfo {
     private String restaurantName;
 
     @Column
-    private float latitidue;
+    private float latitude;
 
     @Column
-    private float longitutde;
+    private float longitude;
 
     @Column(length = 50)
     private String neighborhood;
@@ -79,11 +77,11 @@ public class BarInfo {
     public BarInfo() {
     }
 
-    public BarInfo(Long id, String restaurantName, float latitidue, float longitutde, String neighborhood, String websiteUrl, String menuUrl, String imageUrl, boolean monday, String mondayTime, boolean tuesday, String tuesdayTime, boolean wednesday, String wednesdayTime, boolean thursday, String thursdayTime, boolean friday, String fridayTime, boolean saturday, String saturdayTime, boolean sunday, String sundayTime) {
+    public BarInfo(Long id, String restaurantName, float latitude, float longitude, String neighborhood, String websiteUrl, String menuUrl, String imageUrl, boolean monday, String mondayTime, boolean tuesday, String tuesdayTime, boolean wednesday, String wednesdayTime, boolean thursday, String thursdayTime, boolean friday, String fridayTime, boolean saturday, String saturdayTime, boolean sunday, String sundayTime) {
         this.id = id;
         this.restaurantName = restaurantName;
-        this.latitidue = latitidue;
-        this.longitutde = longitutde;
+        this.latitude = latitude;
+        this.longitude = longitude;
         this.neighborhood = neighborhood;
         this.websiteUrl = websiteUrl;
         this.menuUrl = menuUrl;
@@ -112,20 +110,20 @@ public class BarInfo {
         this.restaurantName = restaurantName;
     }
 
-    public float getLatitidue() {
-        return latitidue;
+    public float getLatitude() {
+        return latitude;
     }
 
-    public void setLatitidue(float latitidue) {
-        this.latitidue = latitidue;
+    public void setLatitude(float latitude) {
+        this.latitude = latitude;
     }
 
-    public float getLongitutde() {
-        return longitutde;
+    public float getLongitude() {
+        return longitude;
     }
 
-    public void setLongitutde(float longitutde) {
-        this.longitutde = longitutde;
+    public void setLongitude(float longitude) {
+        this.longitude = longitude;
     }
 
     public String getNeighborhood() {
@@ -277,8 +275,8 @@ public class BarInfo {
         return "BarInfo{" +
                 "id=" + id +
                 ", restaurantName='" + restaurantName + '\'' +
-                ", latitidue=" + latitidue +
-                ", longitutde=" + longitutde +
+                ", latitude=" + latitude +
+                ", longitude=" + longitude +
                 ", neighborhood='" + neighborhood + '\'' +
                 ", websiteUrl='" + websiteUrl + '\'' +
                 ", menuUrl='" + menuUrl + '\'' +
