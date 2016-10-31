@@ -1,9 +1,10 @@
 package barinfo.models;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 
 @Entity
-@Table(name = "barInfo")
+@NamedQuery(name="BarInfo.findAll", query="SELECT bi FROM BarInfo bi")
 public class BarInfo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,10 +14,10 @@ public class BarInfo {
     private String restaurantName;
 
     @Column
-    private float latitude;
+    private BigDecimal latitude;
 
     @Column
-    private float longitude;
+    private BigDecimal longitude;
 
     @Column(length = 50)
     private String neighborhood;
@@ -31,43 +32,43 @@ public class BarInfo {
     private String imageUrl;
 
     @Column
-    private boolean monday;
+    private Boolean monday;
 
     @Column
     private String mondayTime;
 
     @Column
-    private boolean tuesday;
+    private Boolean tuesday;
 
     @Column
     private String tuesdayTime;
 
     @Column
-    private boolean wednesday;
+    private Boolean wednesday;
 
     @Column
     private String wednesdayTime;
 
     @Column
-    private boolean thursday;
+    private Boolean thursday;
 
     @Column
     private String thursdayTime;
 
     @Column
-    private boolean friday;
+    private Boolean friday;
 
     @Column
     private String fridayTime;
 
     @Column
-    private boolean saturday;
+    private Boolean saturday;
 
     @Column
     private String saturdayTime;
 
     @Column
-    private boolean sunday;
+    private Boolean sunday;
 
     @Column
     private String sundayTime;
@@ -75,7 +76,7 @@ public class BarInfo {
     public BarInfo() {
     }
 
-    public BarInfo(Long id, String restaurantName, float latitude, float longitude, String neighborhood, String websiteUrl, String menuUrl, String imageUrl, boolean monday, String mondayTime, boolean tuesday, String tuesdayTime, boolean wednesday, String wednesdayTime, boolean thursday, String thursdayTime, boolean friday, String fridayTime, boolean saturday, String saturdayTime, boolean sunday, String sundayTime) {
+    public BarInfo(Long id, String restaurantName, BigDecimal latitude, BigDecimal longitude, String neighborhood, String websiteUrl, String menuUrl, String imageUrl, Boolean monday, String mondayTime, Boolean tuesday, String tuesdayTime, Boolean wednesday, String wednesdayTime, Boolean thursday, String thursdayTime, Boolean friday, String fridayTime, Boolean saturday, String saturdayTime, Boolean sunday, String sundayTime) {
         this.id = id;
         this.restaurantName = restaurantName;
         this.latitude = latitude;
@@ -108,19 +109,19 @@ public class BarInfo {
         this.restaurantName = restaurantName;
     }
 
-    public float getLatitude() {
+    public BigDecimal getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(float latitude) {
+    public void setLatitude(BigDecimal latitude) {
         this.latitude = latitude;
     }
 
-    public float getLongitude() {
+    public BigDecimal getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(float longitude) {
+    public void setLongitude(BigDecimal longitude) {
         this.longitude = longitude;
     }
 
@@ -156,11 +157,11 @@ public class BarInfo {
         this.imageUrl = imageUrl;
     }
 
-    public boolean isMonday() {
+    public Boolean isMonday() {
         return monday;
     }
 
-    public void setMonday(boolean monday) {
+    public void setMonday(Boolean monday) {
         this.monday = monday;
     }
 
@@ -172,11 +173,11 @@ public class BarInfo {
         this.mondayTime = mondayTime;
     }
 
-    public boolean isTuesday() {
+    public Boolean isTuesday() {
         return tuesday;
     }
 
-    public void setTuesday(boolean tuesday) {
+    public void setTuesday(Boolean tuesday) {
         this.tuesday = tuesday;
     }
 
@@ -188,11 +189,11 @@ public class BarInfo {
         this.tuesdayTime = tuesdayTime;
     }
 
-    public boolean isWednesday() {
+    public Boolean isWednesday() {
         return wednesday;
     }
 
-    public void setWednesday(boolean wednesday) {
+    public void setWednesday(Boolean wednesday) {
         this.wednesday = wednesday;
     }
 
@@ -204,11 +205,11 @@ public class BarInfo {
         this.wednesdayTime = wednesdayTime;
     }
 
-    public boolean isThursday() {
+    public Boolean isThursday() {
         return thursday;
     }
 
-    public void setThursday(boolean thursday) {
+    public void setThursday(Boolean thursday) {
         this.thursday = thursday;
     }
 
@@ -220,11 +221,11 @@ public class BarInfo {
         this.thursdayTime = thursdayTime;
     }
 
-    public boolean isFriday() {
+    public Boolean isFriday() {
         return friday;
     }
 
-    public void setFriday(boolean friday) {
+    public void setFriday(Boolean friday) {
         this.friday = friday;
     }
 
@@ -236,11 +237,11 @@ public class BarInfo {
         this.fridayTime = fridayTime;
     }
 
-    public boolean isSaturday() {
+    public Boolean isSaturday() {
         return saturday;
     }
 
-    public void setSaturday(boolean saturday) {
+    public void setSaturday(Boolean saturday) {
         this.saturday = saturday;
     }
 
@@ -252,11 +253,11 @@ public class BarInfo {
         this.saturdayTime = saturdayTime;
     }
 
-    public boolean isSunday() {
+    public Boolean isSunday() {
         return sunday;
     }
 
-    public void setSunday(boolean sunday) {
+    public void setSunday(Boolean sunday) {
         this.sunday = sunday;
     }
 

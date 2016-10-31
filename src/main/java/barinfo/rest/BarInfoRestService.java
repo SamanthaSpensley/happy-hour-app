@@ -14,7 +14,7 @@ public class BarInfoRestService {
     @Autowired
     private BarService barService;
 
-    @RequestMapping("/barInfo")
+    @RequestMapping("/barinfo")
     public List<BarInfo> getAllBarInfo(){
         System.out.println("Get all bar info...");
         return barService.findAll();

@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Transactional
 @Repository
 public interface BarRepository extends JpaRepository<BarInfo, Long> {
     List<BarInfo>findAll();
