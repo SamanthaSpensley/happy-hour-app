@@ -1,4 +1,4 @@
-package models;
+package barinfo.models;
 
 import javax.persistence.*;
 
@@ -71,8 +71,6 @@ public class BarInfo {
 
     @Column
     private String sundayTime;
-
-
 
     public BarInfo() {
     }

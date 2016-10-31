@@ -1,6 +1,6 @@
-package services;
+package barinfo.services;
 
-import models.BarInfo;
+import barinfo.models.BarInfo;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

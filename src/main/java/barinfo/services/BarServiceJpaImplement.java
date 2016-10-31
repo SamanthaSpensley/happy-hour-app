@@ -1,10 +1,9 @@
-package services;
+package barinfo.services;
 
-import models.BarInfo;
-import repositories.BarRepository;
+import barinfo.models.BarInfo;
+import barinfo.repositories.BarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
