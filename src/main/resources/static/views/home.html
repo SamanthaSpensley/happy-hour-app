@@ -2,14 +2,19 @@
     <h3>{{headingTitle}}</h3>
 </div>
 
+<p>{{view.data}}</p>
 
-<div class="flip-container" ng-repeat="bar in view.data" ontouchstart="this.classList.toggle('hover');">
-    <div class="flipper">
-        <div class="front">
-            {{bar.restaurantName}}
-        </div>
-        <div class="back">
-            {{bar.neighborhood}}
+<div class="container">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="flip-container" ng-repeat="bar in view.data" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+                <div class="front" ng-style="{'background-image':'url({{bar.imageUrl}})'}">
+                    <p class="barName">{{bar.restaurantName}}</p>
+                </div>
+                <div class="back">
+                    {{bar.neighborhood}}
+                </div>
+            </div>
         </div>
     </div>
 </div>
