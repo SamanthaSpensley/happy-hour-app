@@ -1,16 +1,14 @@
-<div class="section name">
-    <h3>{{headingTitle}}</h3>
-</div>
 
-<div class="search">
-    <input placeholder="Search By Restaurant" type="text" ng-model="search.restaurantName">
-    <input placeholder="Search By Neighborhood" type="text" ng-model="search.neighborhood">
-    <!--<form ng-model="search.neighborhood">-->
-        <!--<label for="lohi">LoHi</label>-->
-        <!--<input type="radio" id="lohi" ng-model="search.neighborhood.LoHi" ng-value="LoHi"/>-->
-        <!---->
-    <!--</form>-->
 
+<div class="search col-md-12 container">
+    <div class="form-group col-xs-12 col-md-3 col-md-offset-3">
+        <label for="restaurant" class="control-label">Search By Restaurant: </label>
+        <input placeholder="Enter a restaurant" type="text" ng-model="search.restaurantName" id="restaurant" class="form-control">
+    </div>
+    <div class="form-group col-xs-12 col-md-3">
+        <label for="neighborhood" class="control-label">Search By Neighborhood: </label>
+        <input placeholder="Enter a neighborhood" type="text" ng-model="search.neighborhood" id="neighborhood" class="form-control">
+    </div>
 </div>
 
 <div class="container">
@@ -19,6 +17,7 @@
             <div class="flipper">
                 <div class="front">
                     <img ng-src="{{bar.imageUrl}}" />
+                    <A NAME="{{bar.restaurantName}}">
                     <p class="barName">{{bar.restaurantName}}</p>
                 </div>
                 <div class="back">
@@ -108,15 +107,9 @@
                             <h4 class="neighborhood">{{bar.neighborhood}}</h4>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="maps">
-                            <h3>Google Maps</h3>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-{{view.data}}

@@ -8,12 +8,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Happy Hour</title>
     <meta name="description" content="">
+    <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
 
+<div class="section name">
+    <h3>Happy Hour</h3>
+</div>
+<div ng-controller="homeController" class="container-fluid">
+    <div id="map"></div>
+</div>
 <div ng-view></div>
+
+
+
 
 
 <script src="/webjars/angularjs/1.4.9/angular.js"></script>
@@ -22,5 +32,7 @@
 <script src="/js/app.js"></script>
 <script src="/js/controller.js"></script>
 <link rel="stylesheet" href="/webjars/bootstrap/3.3.6/css/bootstrap.css">
+<script
+        src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
 </body>
 </html>
