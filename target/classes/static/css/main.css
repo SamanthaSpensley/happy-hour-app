@@ -44,11 +44,6 @@
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: cover;
-    opacity: 0.5;
 }
 
 .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
@@ -70,6 +65,9 @@ img {
     z-index: 0;
     opacity: 0.5;
 }
-.section {
+.url {
+    text-align: center;
+}
+.name {
     text-align: center;
 }
