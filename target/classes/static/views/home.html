@@ -2,8 +2,19 @@
     <h3>{{headingTitle}}</h3>
 </div>
 
+<div class="search">
+    <input placeholder="Search By Restaurant" type="text" ng-model="search.restaurantName">
+    <input placeholder="Search By Neighborhood" type="text" ng-model="search.neighborhood">
+    <!--<form ng-model="search.neighborhood">-->
+        <!--<label for="lohi">LoHi</label>-->
+        <!--<input type="radio" id="lohi" ng-model="search.neighborhood.LoHi" ng-value="LoHi"/>-->
+        <!---->
+    <!--</form>-->
+
+</div>
+
 <div class="container">
-    <div class="col-md-5 col-md-offset-1" ng-repeat="bar in view.data">
+    <div class="col-md-5 col-md-offset-1" ng-repeat="bar in view.data | filter: search">
         <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
             <div class="flipper">
                 <div class="front">
@@ -13,73 +24,96 @@
                 <div class="back">
                     <div class="row">
                         <div class="col-md-12 name">
-                            <h1>{{bar.restaurantName}}</h1>
+                            <h3 class="restaurant">
+                                <a ng-href="{{bar.websiteUrl}}" class="websiteUrl">
+                                    {{bar.restaurantName}}
+                                </a>
+                            </h3>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 col-md-offset-1">
-                            <h6 class="url"><a ng-href="{{bar.websiteUrl}}">Website</a></h6>
-                        </div>
-                        <div class="col-md-4 col-md-offset-1">
+                    <div class="row url">
+                        <div class="col-md-12">
                             <h6 class="url"><a ng-href="{{bar.menuUrl}}">Happy Hour Menu</a></h6>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <h6>Monday</h6>
-                                </div>
-                                <div class="col-md-8">
-                                    <h6>{{bar.mondayTime}}</h6>
-                                </div>
-                                <div class="col-md-4">
-                                    <h6>Tuesday</h6>
-                                </div>
-                                <div class="col-md-8">
-                                    <h6>{{bar.tuesdayTime}}</h6>
-                                </div>
-                                <div class="col-md-4">
-                                    <h6>Wednesday</h6>
-                                </div>
-                                <div class="col-md-8">
-                                    <h6>{{bar.wednesdayTime}}</h6>
-                                </div>
-                                <div class="col-md-4">
-                                    <h6>Thursday</h6>
-                                </div>
-                                <div class="col-md-8">
-                                    <h6>{{bar.thursdayTime}}</h6>
-                                </div>
-                                <div class="col-md-4">
-                                    <h6>Friday</h6>
-                                </div>
-                                <div class="col-md-8">
-                                    <h6>{{bar.fridayTime}}</h6>
-                                </div>
-                                <div class="col-md-4">
-                                    <h6>Saturday</h6>
-                                </div>
-                                <div class="col-md-8">
-                                    <h6>{{bar.saturdayTime}}</h6>
-                                </div>
-                                <div class="col-md-4">
-                                    <h6>Sunday</h6>
-                                </div>
-                                <div class="col-md-8">
-                                    <h6>{{bar.sundayTime}}</h6>
-                                </div>
+                        <div class="col-md-6 leftColumn">
+                            <div class="col-md-4 day">
+                                <h6>Monday</h6>
+                            </div>
+                            <div class="col-md-8" ng-show="bar.mondayTime">
+                                <h6>{{bar.mondayTime}}</h6>
+                            </div>
+                            <div class="col-md-8" ng-hide="bar.mondayTime">
+                                <h6>No Happy Hour</h6>
+                            </div>
+                            <div class="col-md-4 day">
+                                <h6>Tuesday</h6>
+                            </div>
+                            <div class="col-md-8" ng-show="bar.tuesdayTime">
+                                <h6>{{bar.tuesdayTime}}</h6>
+                            </div>
+                            <div class="col-md-8" ng-hide="bar.tuesdayTime">
+                                <h6>No Happy Hour</h6>
+                            </div>
+                            <div class="col-md-4 day">
+                                <h6>Wednesday</h6>
+                            </div>
+                            <div class="col-md-8" ng-show="bar.wednesdayTime">
+                                <h6>{{bar.wednesdayTime}}</h6>
+                            </div>
+                            <div class="col-md-8" ng-hide="bar.wednesdayTime">
+                                <h6>No Happy Hour</h6>
+                            </div>
+                            <div class="col-md-4 day">
+                                <h6>Thursday</h6>
+                            </div>
+                            <div class="col-md-8" ng-show="bar.thursdayTime">
+                                <h6>{{bar.thursdayTime}}</h6>
+                            </div>
+                            <div class="col-md-8" ng-hide="bar.thursdayTime">
+                                <h6>No Happy Hour</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 rightColumn">
+                            <div class="col-md-4 day">
+                                <h6>Friday</h6>
+                            </div>
+                            <div class="col-md-8" ng-show="bar.fridayTime">
+                                <h6>{{bar.fridayTime}}</h6>
+                            </div>
+                            <div class="col-md-8" ng-hide="bar.fridayTime">
+                                <h6>No Happy Hour</h6>
+                            </div>
+                            <div class="col-md-4 day">
+                                <h6>Saturday</h6>
+                            </div>
+                            <div class="col-md-8" ng-show="bar.saturdayTime">
+                                <h6>{{bar.saturdayTime}}</h6>
+                            </div>
+                            <div class="col-md-8" ng-hide="bar.saturdayTime">
+                                <h6>No Happy Hour</h6>
+                            </div>
+                            <div class="col-md-4 day">
+                                <h6>Sunday</h6>
+                            </div>
+                            <div class="col-md-8" ng-show="bar.sundayTime">
+                                <h6>{{bar.sundayTime}}</h6>
+                            </div>
+                            <div class="col-md-8" ng-hide="bar.sundayTime">
+                                <h6>No Happy Hour</h6>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 col-md-offset-4">
-                            <h2>{{bar.neighborhood}}</h2>
+                        <div class="col-md-12">
+                            <h4 class="neighborhood">{{bar.neighborhood}}</h4>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <h1>Google Maps</h1>
+                        <div class="maps">
+                            <h3>Google Maps</h3>
                         </div>
                     </div>
                 </div>

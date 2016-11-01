@@ -71,3 +71,39 @@ img {
 .name {
     text-align: center;
 }
+
+.url {
+    margin-top: -5px;
+}
+
+.websiteUrl {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.restaurant,
+.neighborhood{
+    padding: 0;
+    margin-top: 5px;
+}
+
+.maps{
+    border:1px solid black;
+    height: 100px;
+    width:100px;
+}
+
+.leftColumn{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.rightColumn{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.day{
+    padding: 0;
+}
