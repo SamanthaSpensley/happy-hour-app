@@ -70,3 +70,6 @@ img {
     z-index: 0;
     opacity: 0.5;
 }
+.section {
+    text-align: center;
+}

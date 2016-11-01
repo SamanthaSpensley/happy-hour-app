@@ -3,8 +3,8 @@
 </div>
 
 <div class="container">
-    <div class="col-md-8 col-md-offset-2">
-        <div class="flip-container" ng-repeat="bar in view.data" ontouchstart="this.classList.toggle('hover');">
+    <div class="col-md-5 col-md-offset-1" ng-repeat="bar in view.data">
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
             <div class="flipper">
                 <div class="front">
                     <img ng-src="{{bar.imageUrl}}" />
