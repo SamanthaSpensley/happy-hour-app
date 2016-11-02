@@ -7,18 +7,870 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65edb357-8104-4696-aacb-26d1091ccd58" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/springboot_angularjs_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/data.sql" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/.application.properties.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/.application.properties.swp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/images/beachflag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/images/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/angular-material-mocks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/angular-material.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/angular-material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/angular-material.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/angular-material.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/angular-material.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/layouts/angular-material.layout-attributes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/layouts/angular-material.layout-attributes.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/layouts/angular-material.layout-attributes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/layouts/angular-material.layouts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/layouts/angular-material.layouts.ie_fixes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/layouts/angular-material.layouts.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/layouts/angular-material.layouts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/autocomplete/autocomplete-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/autocomplete/autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/autocomplete/autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/autocomplete/autocomplete.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/autocomplete/autocomplete.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/backdrop/backdrop-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/backdrop/backdrop-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/backdrop/backdrop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/backdrop/backdrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/backdrop/backdrop.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/backdrop/backdrop.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/bottomSheet/bottomSheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/bottomSheet/bottomSheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/bottomSheet/bottomSheet.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/bottomSheet/bottomSheet.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/button/button-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/button/button-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/button/button.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/button/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/button/button.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/button/button.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/card/card-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/card/card-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/card/card.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/card/card.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/card/card.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/card/card.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/checkbox/checkbox-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/checkbox/checkbox-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/checkbox/checkbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/checkbox/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/checkbox/checkbox.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/checkbox/checkbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/chips/chips-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/chips/chips-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/chips/chips.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/chips/chips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/chips/chips.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/chips/chips.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/colors/colors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/colors/colors.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/content/content-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/content/content-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/content/content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/content/content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/content/content.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/content/content.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/core/core-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/core/core-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/core/core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/core/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/core/core.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/core/core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/core/default-theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/datepicker/datepicker-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/datepicker/datepicker-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/datepicker/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/datepicker/datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/datepicker/datepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/datepicker/datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/dialog/dialog-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/dialog/dialog-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/dialog/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/dialog/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/dialog/dialog.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/dialog/dialog.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/divider/divider-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/divider/divider-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/divider/divider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/divider/divider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/divider/divider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/divider/divider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabActions/fabActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabActions/fabActions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabToolbar/fabToolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabToolbar/fabToolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabToolbar/fabToolbar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabToolbar/fabToolbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabTrigger/fabTrigger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/fabTrigger/fabTrigger.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/gridList/gridList-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/gridList/gridList.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/gridList/gridList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/gridList/gridList.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/gridList/gridList.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/icon/icon-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/icon/icon-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/icon/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/icon/icon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/icon/icon.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/icon/icon.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/input/input-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/input/input-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/input/input.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/input/input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/input/input.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/input/input.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/list/list-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/list/list-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/list/list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/list/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/list/list.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/list/list.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menu/menu-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menu/menu-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menu/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menu/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menu/menu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menu/menu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menuBar/menuBar-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menuBar/menuBar-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menuBar/menuBar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menuBar/menuBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menuBar/menuBar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/menuBar/menuBar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/navBar/navBar-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/navBar/navBar-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/navBar/navBar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/navBar/navBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/navBar/navBar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/navBar/navBar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/panel/panel-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/panel/panel-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/panel/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/panel/panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/panel/panel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/panel/panel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressCircular/progressCircular-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressCircular/progressCircular.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressCircular/progressCircular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressCircular/progressCircular.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressCircular/progressCircular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressLinear/progressLinear-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressLinear/progressLinear.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressLinear/progressLinear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressLinear/progressLinear.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/progressLinear/progressLinear.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/radioButton/radioButton-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/radioButton/radioButton-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/radioButton/radioButton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/radioButton/radioButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/radioButton/radioButton.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/radioButton/radioButton.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/select/select-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/select/select-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/select/select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/select/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/select/select.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/select/select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/showHide/showHide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/showHide/showHide.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sidenav/sidenav-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sidenav/sidenav-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sidenav/sidenav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sidenav/sidenav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sidenav/sidenav.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sidenav/sidenav.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/slider/slider-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/slider/slider-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/slider/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/slider/slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/slider/slider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/slider/slider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sticky/sticky.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sticky/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sticky/sticky.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/sticky/sticky.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/subheader/subheader-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/subheader/subheader-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/subheader/subheader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/subheader/subheader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/subheader/subheader.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/subheader/subheader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/swipe/swipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/swipe/swipe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/switch/switch-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/switch/switch-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/switch/switch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/switch/switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/switch/switch.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/switch/switch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tabs/tabs-arrow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tabs/tabs-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tabs/tabs-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tabs/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tabs/tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tabs/tabs.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tabs/tabs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/textField/textField-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/textField/textField.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/textField/textField.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toast/toast-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toast/toast-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toast/toast.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toast/toast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toast/toast.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toast/toast.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toolbar/toolbar-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toolbar/toolbar-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toolbar/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toolbar/toolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toolbar/toolbar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/toolbar/toolbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tooltip/tooltip-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tooltip/tooltip-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tooltip/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tooltip/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tooltip/tooltip.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/tooltip/tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/virtualRepeat/virtualRepeat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/virtualRepeat/virtualRepeat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/whiteframe/whiteframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/whiteframe/whiteframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/whiteframe/whiteframe.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/closure/whiteframe/whiteframe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/autocomplete/autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/autocomplete/autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/autocomplete/autocomplete.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/autocomplete/autocomplete.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/autocomplete/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/backdrop/backdrop-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/backdrop/backdrop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/backdrop/backdrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/backdrop/backdrop.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/backdrop/backdrop.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/backdrop/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/bottomSheet/bottomSheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/bottomSheet/bottomSheet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/bottomSheet/bottomSheet.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/bottomSheet/bottomSheet.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/bottomSheet/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/button/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/button/button-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/button/button-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/button/button.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/button/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/button/button.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/button/button.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/card/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/card/card-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/card/card-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/card/card.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/card/card.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/card/card.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/card/card.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/checkbox/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/checkbox/checkbox-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/checkbox/checkbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/checkbox/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/checkbox/checkbox.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/checkbox/checkbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/chips/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/chips/chips-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/chips/chips-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/chips/chips.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/chips/chips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/chips/chips.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/chips/chips.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/colors/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/colors/colors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/colors/colors.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/content/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/content/content-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/content/content-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/content/content.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/content/content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/content/content.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/content/content.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/core/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/core/core-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/core/core-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/core/core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/core/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/core/core.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/core/core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/core/default-theme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/datepicker/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/datepicker/datepicker-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/datepicker/datepicker-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/datepicker/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/datepicker/datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/datepicker/datepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/datepicker/datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/dialog/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/dialog/dialog-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/dialog/dialog-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/dialog/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/dialog/dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/dialog/dialog.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/dialog/dialog.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/divider/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/divider/divider-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/divider/divider-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/divider/divider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/divider/divider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/divider/divider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/divider/divider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabActions/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabActions/fabActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabActions/fabActions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabSpeedDial/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabToolbar/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabToolbar/fabToolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabToolbar/fabToolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabToolbar/fabToolbar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabToolbar/fabToolbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabTrigger/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabTrigger/fabTrigger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/fabTrigger/fabTrigger.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/gridList/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/gridList/gridList.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/gridList/gridList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/gridList/gridList.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/gridList/gridList.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/icon/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/icon/icon-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/icon/icon-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/icon/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/icon/icon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/icon/icon.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/icon/icon.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/input/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/input/input-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/input/input-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/input/input.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/input/input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/input/input.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/input/input.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/list/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/list/list-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/list/list-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/list/list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/list/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/list/list.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/list/list.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menu/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menu/menu-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menu/menu-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menu/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menu/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menu/menu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menu/menu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menuBar/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menuBar/menuBar-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menuBar/menuBar-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menuBar/menuBar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menuBar/menuBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menuBar/menuBar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/menuBar/menuBar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/navBar/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/navBar/navBar-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/navBar/navBar-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/navBar/navBar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/navBar/navBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/navBar/navBar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/navBar/navBar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/panel/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/panel/panel-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/panel/panel-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/panel/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/panel/panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/panel/panel.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/panel/panel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressCircular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressCircular/progressCircular.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressCircular/progressCircular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressCircular/progressCircular.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressCircular/progressCircular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressLinear/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressLinear/progressLinear.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressLinear/progressLinear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressLinear/progressLinear.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/progressLinear/progressLinear.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/radioButton/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/radioButton/radioButton-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/radioButton/radioButton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/radioButton/radioButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/radioButton/radioButton.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/radioButton/radioButton.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/select/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/select/select-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/select/select-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/select/select.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/select/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/select/select.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/select/select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/showHide/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/showHide/showHide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/showHide/showHide.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sidenav/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sidenav/sidenav-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sidenav/sidenav.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sidenav/sidenav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sidenav/sidenav.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sidenav/sidenav.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/slider/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/slider/slider-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/slider/slider-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/slider/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/slider/slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/slider/slider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/slider/slider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sticky/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sticky/sticky.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sticky/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sticky/sticky.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/sticky/sticky.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/subheader/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/subheader/subheader-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/subheader/subheader-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/subheader/subheader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/subheader/subheader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/subheader/subheader.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/subheader/subheader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/swipe/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/swipe/swipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/swipe/swipe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/switch/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/switch/switch-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/switch/switch-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/switch/switch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/switch/switch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/switch/switch.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/switch/switch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tabs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tabs/tabs-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tabs/tabs-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tabs/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tabs/tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tabs/tabs.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tabs/tabs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/textField/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/textField/textField-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/textField/textField-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/textField/textField.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/textField/textField.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/textField/textField.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/textField/textField.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toast/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toast/toast-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toast/toast-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toast/toast.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toast/toast.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toast/toast.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toast/toast.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toolbar/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toolbar/toolbar-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toolbar/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toolbar/toolbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toolbar/toolbar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/toolbar/toolbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tooltip/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tooltip/tooltip-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tooltip/tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tooltip/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tooltip/tooltip.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/tooltip/tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/virtualRepeat/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/virtualRepeat/virtualRepeat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/virtualRepeat/virtualRepeat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/virtualRepeat/virtualRepeat.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/virtualRepeat/virtualRepeat.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/whiteframe/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/whiteframe/whiteframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/whiteframe/whiteframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/whiteframe/whiteframe.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/js/whiteframe/whiteframe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/layouts/angular-material.layout-attributes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/layouts/angular-material.layout-attributes.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/layouts/angular-material.layouts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/layouts/angular-material.layouts.ie_fixes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/layouts/angular-material.layouts.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/scss/angular-material.layout-attributes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/scss/angular-material.layouts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/modules/scss/angular-material.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/angular-material/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/.nvmrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/CONTRIBUTORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/Attr2MapOptions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/GeoCoder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/NavigatorGeolocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/NgMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/NgMapPool.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/StreetView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/bicycling-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/css/prettify-tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/css/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/css/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/custom-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/directions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/drawing-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/dynamic-maps-engine-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/fusion-tables-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/heatmap-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/info-window.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/js/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/js/site.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/kml-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/map-data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/map-lazy-load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/map-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/maps-engine-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/ngMap.ng-map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/ngmap.custom-marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/overlay-map-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/places-auto-complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/shape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/Attr2MapOptions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/GeoCoder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/NavigatorGeolocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/NgMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/NgMapPool.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/StreetView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/bicycling-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/custom-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/directions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/drawing-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/dynamic-maps-engine-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/fusion-tables-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/heatmap-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/info-window.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/kml-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/map-data.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/map-lazy-load.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/map-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/maps-engine-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/ngMap.ng-map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/ngmap.custom-marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/overlay-map-type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/places-auto-complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/shape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/streetview-panorama.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/traffic-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/source/transit-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/streetview-panorama.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/traffic-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/docs/transit-layer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/scripts/ng-map.debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/scripts/ng-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/build/scripts/ng-map.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/plugins/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/publish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/static/scripts/linenumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/static/scripts/prettify/Apache-License-2.0.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/static/scripts/prettify/lang-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/static/scripts/prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/static/styles/jsdoc-default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/static/styles/prettify-jsdoc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/static/styles/prettify-tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/container.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/details.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/example.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/examples.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/exceptions.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/layout.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/mainpage.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/members.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/method.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/params.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/properties.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/returns.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/source.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/tutorial.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/jsdoc/template/tmpl/type.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/config/protractor.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/contributors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/controllers/map-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/bicycling-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/custom-control.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/custom-marker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/directions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/drawing-manager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/dynamic-maps-engine-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/fusion-tables-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/heatmap-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/info-window.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/kml-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/map-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/map-lazy-load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/map-type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/maps-engine-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/marker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/overlay-map-type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/places-auto-complete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/shape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/street-view-panorama.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/traffic-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/directives/transit-layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/filters/camel-case.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/filters/jsonize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/road-trip.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/services/attr2-map-options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/services/geo-coder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/services/navigator-geolocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/services/ng-map-pool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/services/ng-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/services/street-view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/TODO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/directives/map_controller_spec_back.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/directives/map_spec_bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/directives/marker_spec_bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/directives/shape_spec_bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/directives/street_view_panorama_spec_bak.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/e2e/testapp_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/lib/angular-mocks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/lib/markerclusterer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/services/attr2_options_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/services/geo_coder_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/services/navigator_geolocation_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/services/ng-map-pool-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/spec/services/street_view_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/USGSOverlay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/aerial-rotate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/aerial-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/all-examples.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/all-examples.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/circle-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/control-custom-state.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/control-custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/control-disableUI.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/control-options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/control-positioning.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/control-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/custom-control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/custom-marker-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/custom-marker-clusterer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/custom-marker-custom-style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/custom-marker-ng-repeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/custom-marker-two-way-binding.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/custom-marker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/custom-marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/directions-with-current-location.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/directions-with-custom-marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/directions-with-ng-repeat-panels.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/directions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/directions2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/drawing-manager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/event-arguments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/event-domlistener.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/event-properties.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/event-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/geojson.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/groundoverlay-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/heatmap.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/icon-complex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/icon-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/infowindow-simple-max.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/infowindow-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/infowindow-template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/infowindow_compile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/infowindow_geolookup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/infowindow_ng_click.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-bicycling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-data-dynamic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-data-quakes-advanced.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-data-quakes-default.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-data-quakes-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-data-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-data-style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-dynamicmapsengine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-fusiontables-heatmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-fusiontables-query.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-fusiontables-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-fusiontables-styling.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-georss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-heatmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-kml-features.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-kml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-mapsengine.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-style-event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-traffic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/layer-transit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/lib/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/lib/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/lib/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/lib/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/lib/prettify-tomorrow-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/lib/prettify-tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/lib/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-coordinates.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-geolocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-gulp-usemin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-gulp-usemin/map-gulp-usemin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-gulp-usemin/myapp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-initialized-callback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-initialized.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-lazy-inint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-lazy-load-params.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-projection-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map-with-dynamic-id.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_app.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_fit_bounds.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_geo_fallback_center.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_no_default_style.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_with_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_with_current_position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_with_dynamic_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_with_dynamic_center.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/map_zoom_to_include_markers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/mapsenginelayer-noauth-layerid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/mapsenginelayer-noauth-layerkey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/maptype-base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/maptype-image-overlay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/maptype-image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/maptype-overlay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/maptype-styled-complex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/maptype-styled-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker-animations-iteration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker-animations.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker-clusterer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker-remove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker-symbol-custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker-symbol-predefined.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker-with-default-options.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_data_with_ng_repeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_dynamic_ng_repeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_icon.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_on_street_view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_with_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_with_current_position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_with_dynamic_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_with_ng_repeat_dynamic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_with_ng_repeat_no_watcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/marker_with_parent_controller.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/multiple_maps_on_a_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/overlay-custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/overlay-hideshow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/overlay-remove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/overlay-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/overlay-symbol-animate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/overlay-symbol-arrow.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/overlay-symbol-custom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/overlay-symbol-dashed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/partials/custom-info-window-template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/places-auto-complete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/polygon-arrays.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/polygon-autoclose.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/polygon-draggable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/polygon-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/polyline-complex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/polyline-remove.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/polyline-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/rectangle-event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/rectangle-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/rectangle-zoom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/script-tags-for-development.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/scripts/get-starbucks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/scripts/markerclusterer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/scripts/markerclusterer_packed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/scripts/markers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/scripts/quakes.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/scripts/starbucks.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/shape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/shape_circle_with_current_position.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/shape_circle_with_dynamic_address.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/shape_with_ng_repeat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/street-view-panorama.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/street-view-panorama_container.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/street-view-panorama_container2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/street-view_road_trip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/taxi-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/ui-bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/ui-router.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/ui-router2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/us-states-20m.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/ngmap/testapp/user-editable-shapes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/views/addHappyHourForm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/static/views/addHappyHourForm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-angularjs.iml" afterPath="$PROJECT_DIR$/springboot-angularjs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/barinfo/rest/BarInfoRestService.java" afterPath="$PROJECT_DIR$/src/main/java/barinfo/rest/BarInfoRestService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/app.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/controller.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/services.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/views/home.html" afterPath="$PROJECT_DIR$/src/main/resources/static/views/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/css/main.css" afterPath="$PROJECT_DIR$/target/classes/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="$PROJECT_DIR$/target/classes/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/app.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/controller.js" afterPath="$PROJECT_DIR$/target/classes/static/js/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/services.js" afterPath="$PROJECT_DIR$/target/classes/static/js/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/views/home.html" afterPath="$PROJECT_DIR$/target/classes/static/views/home.html" />
     </list>
     <ignored path="springboot-angularjs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +900,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+            <state relative-caret-position="45">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -61,10 +913,10 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="1101" column="10" selection-start-line="1101" selection-start-column="10" selection-end-line="1101" selection-end-column="10" />
+            <state relative-caret-position="21165">
+              <caret line="2269" column="10" selection-start-line="2269" selection-start-column="10" selection-end-line="2269" selection-end-column="10" />
               <folding>
-                <marker date="1478116831000" expanded="true" signature="59:60129" ph="..." />
+                <marker date="1478118283000" expanded="true" signature="192077:192090" ph="..." />
               </folding>
             </state>
           </provider>
@@ -95,7 +947,93 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2594#2595#0" expanded="false" />
+                <element signature="e#2631#2632#0" expanded="false" />
+                <element signature="e#2691#2692#0" expanded="false" />
+                <element signature="e#2743#2744#0" expanded="false" />
+                <element signature="e#2782#2783#0" expanded="false" />
+                <element signature="e#2813#2814#0" expanded="false" />
+                <element signature="e#2865#2866#0" expanded="false" />
+                <element signature="e#2905#2906#0" expanded="false" />
+                <element signature="e#2945#2946#0" expanded="false" />
+                <element signature="e#2977#2978#0" expanded="false" />
+                <element signature="e#3031#3032#0" expanded="false" />
+                <element signature="e#3073#3074#0" expanded="false" />
+                <element signature="e#3112#3113#0" expanded="false" />
+                <element signature="e#3147#3148#0" expanded="false" />
+                <element signature="e#3203#3204#0" expanded="false" />
+                <element signature="e#3251#3252#0" expanded="false" />
+                <element signature="e#3288#3289#0" expanded="false" />
+                <element signature="e#3321#3322#0" expanded="false" />
+                <element signature="e#3373#3374#0" expanded="false" />
+                <element signature="e#3417#3418#0" expanded="false" />
+                <element signature="e#3451#3452#0" expanded="false" />
+                <element signature="e#3481#3482#0" expanded="false" />
+                <element signature="e#3527#3528#0" expanded="false" />
+                <element signature="e#3565#3566#0" expanded="false" />
+                <element signature="e#3600#3601#0" expanded="false" />
+                <element signature="e#3631#3632#0" expanded="false" />
+                <element signature="e#3679#3680#0" expanded="false" />
+                <element signature="e#3719#3720#0" expanded="false" />
+                <element signature="e#3752#3753#0" expanded="false" />
+                <element signature="e#3781#3782#0" expanded="false" />
+                <element signature="e#3826#3827#0" expanded="false" />
+                <element signature="e#3862#3863#0" expanded="false" />
+                <element signature="e#3899#3900#0" expanded="false" />
+                <element signature="e#3932#3933#0" expanded="false" />
+                <element signature="e#3984#3985#0" expanded="false" />
+                <element signature="e#4028#4029#0" expanded="false" />
+                <element signature="e#4062#4063#0" expanded="false" />
+                <element signature="e#4092#4093#0" expanded="false" />
+                <element signature="e#4139#4140#0" expanded="false" />
+                <element signature="e#4177#4178#0" expanded="false" />
+                <element signature="e#4215#4216#0" expanded="false" />
+                <element signature="e#4249#4250#0" expanded="false" />
+                <element signature="e#4303#4304#0" expanded="false" />
+                <element signature="e#4349#4350#0" expanded="false" />
+                <element signature="e#4385#4386#0" expanded="false" />
+                <element signature="e#4417#4418#0" expanded="false" />
+                <element signature="e#4468#4469#0" expanded="false" />
+                <element signature="e#4510#4511#0" expanded="false" />
+                <element signature="e#4550#4551#0" expanded="false" />
+                <element signature="e#4586#4587#0" expanded="false" />
+                <element signature="e#4644#4645#0" expanded="false" />
+                <element signature="e#4694#4695#0" expanded="false" />
+                <element signature="e#4729#4730#0" expanded="false" />
+                <element signature="e#4760#4761#0" expanded="false" />
+                <element signature="e#4809#4810#0" expanded="false" />
+                <element signature="e#4849#4850#0" expanded="false" />
+                <element signature="e#4888#4889#0" expanded="false" />
+                <element signature="e#4923#4924#0" expanded="false" />
+                <element signature="e#4979#4980#0" expanded="false" />
+                <element signature="e#5027#5028#0" expanded="false" />
+                <element signature="e#5060#5061#0" expanded="false" />
+                <element signature="e#5089#5090#0" expanded="false" />
+                <element signature="e#5134#5135#0" expanded="false" />
+                <element signature="e#5170#5171#0" expanded="false" />
+                <element signature="e#5207#5208#0" expanded="false" />
+                <element signature="e#5240#5241#0" expanded="false" />
+                <element signature="e#5292#5293#0" expanded="false" />
+                <element signature="e#5336#5337#0" expanded="false" />
+                <element signature="e#5371#5372#0" expanded="false" />
+                <element signature="e#5402#5403#0" expanded="false" />
+                <element signature="e#5451#5452#0" expanded="false" />
+                <element signature="e#5491#5492#0" expanded="false" />
+                <element signature="e#5530#5531#0" expanded="false" />
+                <element signature="e#5565#5566#0" expanded="false" />
+                <element signature="e#5621#5622#0" expanded="false" />
+                <element signature="e#5669#5670#0" expanded="false" />
+                <element signature="e#5702#5703#0" expanded="false" />
+                <element signature="e#5731#5732#0" expanded="false" />
+                <element signature="e#5776#5777#0" expanded="false" />
+                <element signature="e#5812#5813#0" expanded="false" />
+                <element signature="e#5849#5850#0" expanded="false" />
+                <element signature="e#5882#5883#0" expanded="false" />
+                <element signature="e#5934#5935#0" expanded="false" />
+                <element signature="e#5978#5979#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,15 +1053,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="735">
               <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
               <folding />
             </state>
@@ -150,12 +1090,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/js/controller.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/app.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/views/home.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/sql/data.sql" />
         <option value="$PROJECT_DIR$/dump3.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -176,6 +1116,9 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -207,9 +1150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,6 +1172,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -685,11 +1628,12 @@
       <workItem from="1477943081646" duration="23227000" />
       <workItem from="1478096547295" duration="33000" />
       <workItem from="1478102681257" duration="9667000" />
+      <workItem from="1478118061600" duration="197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32927000" />
+    <option name="totallyTimeSpent" value="33124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="800" extended-state="6" />
@@ -697,7 +1641,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -720,6 +1663,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -773,11 +1717,164 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16515">
+          <caret line="1101" column="10" selection-start-line="1101" selection-start-column="10" selection-end-line="1101" selection-end-column="10" />
+          <folding>
+            <marker date="1478118283000" expanded="true" signature="192077:192090" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="94" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dump3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/barinfo/models/BarInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2594#2595#0" expanded="false" />
+            <element signature="e#2631#2632#0" expanded="false" />
+            <element signature="e#2691#2692#0" expanded="false" />
+            <element signature="e#2743#2744#0" expanded="false" />
+            <element signature="e#2782#2783#0" expanded="false" />
+            <element signature="e#2813#2814#0" expanded="false" />
+            <element signature="e#2865#2866#0" expanded="false" />
+            <element signature="e#2905#2906#0" expanded="false" />
+            <element signature="e#2945#2946#0" expanded="false" />
+            <element signature="e#2977#2978#0" expanded="false" />
+            <element signature="e#3031#3032#0" expanded="false" />
+            <element signature="e#3073#3074#0" expanded="false" />
+            <element signature="e#3112#3113#0" expanded="false" />
+            <element signature="e#3147#3148#0" expanded="false" />
+            <element signature="e#3203#3204#0" expanded="false" />
+            <element signature="e#3251#3252#0" expanded="false" />
+            <element signature="e#3288#3289#0" expanded="false" />
+            <element signature="e#3321#3322#0" expanded="false" />
+            <element signature="e#3373#3374#0" expanded="false" />
+            <element signature="e#3417#3418#0" expanded="false" />
+            <element signature="e#3451#3452#0" expanded="false" />
+            <element signature="e#3481#3482#0" expanded="false" />
+            <element signature="e#3527#3528#0" expanded="false" />
+            <element signature="e#3565#3566#0" expanded="false" />
+            <element signature="e#3600#3601#0" expanded="false" />
+            <element signature="e#3631#3632#0" expanded="false" />
+            <element signature="e#3679#3680#0" expanded="false" />
+            <element signature="e#3719#3720#0" expanded="false" />
+            <element signature="e#3752#3753#0" expanded="false" />
+            <element signature="e#3781#3782#0" expanded="false" />
+            <element signature="e#3826#3827#0" expanded="false" />
+            <element signature="e#3862#3863#0" expanded="false" />
+            <element signature="e#3899#3900#0" expanded="false" />
+            <element signature="e#3932#3933#0" expanded="false" />
+            <element signature="e#3984#3985#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="e#4062#4063#0" expanded="false" />
+            <element signature="e#4092#4093#0" expanded="false" />
+            <element signature="e#4139#4140#0" expanded="false" />
+            <element signature="e#4177#4178#0" expanded="false" />
+            <element signature="e#4215#4216#0" expanded="false" />
+            <element signature="e#4249#4250#0" expanded="false" />
+            <element signature="e#4303#4304#0" expanded="false" />
+            <element signature="e#4349#4350#0" expanded="false" />
+            <element signature="e#4385#4386#0" expanded="false" />
+            <element signature="e#4417#4418#0" expanded="false" />
+            <element signature="e#4468#4469#0" expanded="false" />
+            <element signature="e#4510#4511#0" expanded="false" />
+            <element signature="e#4550#4551#0" expanded="false" />
+            <element signature="e#4586#4587#0" expanded="false" />
+            <element signature="e#4644#4645#0" expanded="false" />
+            <element signature="e#4694#4695#0" expanded="false" />
+            <element signature="e#4729#4730#0" expanded="false" />
+            <element signature="e#4760#4761#0" expanded="false" />
+            <element signature="e#4809#4810#0" expanded="false" />
+            <element signature="e#4849#4850#0" expanded="false" />
+            <element signature="e#4888#4889#0" expanded="false" />
+            <element signature="e#4923#4924#0" expanded="false" />
+            <element signature="e#4979#4980#0" expanded="false" />
+            <element signature="e#5027#5028#0" expanded="false" />
+            <element signature="e#5060#5061#0" expanded="false" />
+            <element signature="e#5089#5090#0" expanded="false" />
+            <element signature="e#5134#5135#0" expanded="false" />
+            <element signature="e#5170#5171#0" expanded="false" />
+            <element signature="e#5207#5208#0" expanded="false" />
+            <element signature="e#5240#5241#0" expanded="false" />
+            <element signature="e#5292#5293#0" expanded="false" />
+            <element signature="e#5336#5337#0" expanded="false" />
+            <element signature="e#5371#5372#0" expanded="false" />
+            <element signature="e#5402#5403#0" expanded="false" />
+            <element signature="e#5451#5452#0" expanded="false" />
+            <element signature="e#5491#5492#0" expanded="false" />
+            <element signature="e#5530#5531#0" expanded="false" />
+            <element signature="e#5565#5566#0" expanded="false" />
+            <element signature="e#5621#5622#0" expanded="false" />
+            <element signature="e#5669#5670#0" expanded="false" />
+            <element signature="e#5702#5703#0" expanded="false" />
+            <element signature="e#5731#5732#0" expanded="false" />
+            <element signature="e#5776#5777#0" expanded="false" />
+            <element signature="e#5812#5813#0" expanded="false" />
+            <element signature="e#5849#5850#0" expanded="false" />
+            <element signature="e#5882#5883#0" expanded="false" />
+            <element signature="e#5934#5935#0" expanded="false" />
+            <element signature="e#5978#5979#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/barinfo/HappyHourApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +1890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="62" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +1897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +1904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2145">
           <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +1911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +1926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +1933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="62" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +1940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +1947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2145">
           <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +1954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +1972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="62" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +1979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2145">
           <caret line="143" column="1" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +1986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +2001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,24 +2008,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="1101" column="10" selection-start-line="1101" selection-start-column="10" selection-end-line="1101" selection-end-column="10" />
+        <state relative-caret-position="21165">
+          <caret line="2269" column="10" selection-start-line="2269" selection-start-column="10" selection-end-line="2269" selection-end-column="10" />
           <folding>
-            <marker date="1478116831000" expanded="true" signature="59:60129" ph="..." />
+            <marker date="1478118283000" expanded="true" signature="192077:192090" ph="..." />
           </folding>
         </state>
       </provider>
@@ -958,7 +2033,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -966,7 +2043,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2594#2595#0" expanded="false" />
+            <element signature="e#2631#2632#0" expanded="false" />
+            <element signature="e#2691#2692#0" expanded="false" />
+            <element signature="e#2743#2744#0" expanded="false" />
+            <element signature="e#2782#2783#0" expanded="false" />
+            <element signature="e#2813#2814#0" expanded="false" />
+            <element signature="e#2865#2866#0" expanded="false" />
+            <element signature="e#2905#2906#0" expanded="false" />
+            <element signature="e#2945#2946#0" expanded="false" />
+            <element signature="e#2977#2978#0" expanded="false" />
+            <element signature="e#3031#3032#0" expanded="false" />
+            <element signature="e#3073#3074#0" expanded="false" />
+            <element signature="e#3112#3113#0" expanded="false" />
+            <element signature="e#3147#3148#0" expanded="false" />
+            <element signature="e#3203#3204#0" expanded="false" />
+            <element signature="e#3251#3252#0" expanded="false" />
+            <element signature="e#3288#3289#0" expanded="false" />
+            <element signature="e#3321#3322#0" expanded="false" />
+            <element signature="e#3373#3374#0" expanded="false" />
+            <element signature="e#3417#3418#0" expanded="false" />
+            <element signature="e#3451#3452#0" expanded="false" />
+            <element signature="e#3481#3482#0" expanded="false" />
+            <element signature="e#3527#3528#0" expanded="false" />
+            <element signature="e#3565#3566#0" expanded="false" />
+            <element signature="e#3600#3601#0" expanded="false" />
+            <element signature="e#3631#3632#0" expanded="false" />
+            <element signature="e#3679#3680#0" expanded="false" />
+            <element signature="e#3719#3720#0" expanded="false" />
+            <element signature="e#3752#3753#0" expanded="false" />
+            <element signature="e#3781#3782#0" expanded="false" />
+            <element signature="e#3826#3827#0" expanded="false" />
+            <element signature="e#3862#3863#0" expanded="false" />
+            <element signature="e#3899#3900#0" expanded="false" />
+            <element signature="e#3932#3933#0" expanded="false" />
+            <element signature="e#3984#3985#0" expanded="false" />
+            <element signature="e#4028#4029#0" expanded="false" />
+            <element signature="e#4062#4063#0" expanded="false" />
+            <element signature="e#4092#4093#0" expanded="false" />
+            <element signature="e#4139#4140#0" expanded="false" />
+            <element signature="e#4177#4178#0" expanded="false" />
+            <element signature="e#4215#4216#0" expanded="false" />
+            <element signature="e#4249#4250#0" expanded="false" />
+            <element signature="e#4303#4304#0" expanded="false" />
+            <element signature="e#4349#4350#0" expanded="false" />
+            <element signature="e#4385#4386#0" expanded="false" />
+            <element signature="e#4417#4418#0" expanded="false" />
+            <element signature="e#4468#4469#0" expanded="false" />
+            <element signature="e#4510#4511#0" expanded="false" />
+            <element signature="e#4550#4551#0" expanded="false" />
+            <element signature="e#4586#4587#0" expanded="false" />
+            <element signature="e#4644#4645#0" expanded="false" />
+            <element signature="e#4694#4695#0" expanded="false" />
+            <element signature="e#4729#4730#0" expanded="false" />
+            <element signature="e#4760#4761#0" expanded="false" />
+            <element signature="e#4809#4810#0" expanded="false" />
+            <element signature="e#4849#4850#0" expanded="false" />
+            <element signature="e#4888#4889#0" expanded="false" />
+            <element signature="e#4923#4924#0" expanded="false" />
+            <element signature="e#4979#4980#0" expanded="false" />
+            <element signature="e#5027#5028#0" expanded="false" />
+            <element signature="e#5060#5061#0" expanded="false" />
+            <element signature="e#5089#5090#0" expanded="false" />
+            <element signature="e#5134#5135#0" expanded="false" />
+            <element signature="e#5170#5171#0" expanded="false" />
+            <element signature="e#5207#5208#0" expanded="false" />
+            <element signature="e#5240#5241#0" expanded="false" />
+            <element signature="e#5292#5293#0" expanded="false" />
+            <element signature="e#5336#5337#0" expanded="false" />
+            <element signature="e#5371#5372#0" expanded="false" />
+            <element signature="e#5402#5403#0" expanded="false" />
+            <element signature="e#5451#5452#0" expanded="false" />
+            <element signature="e#5491#5492#0" expanded="false" />
+            <element signature="e#5530#5531#0" expanded="false" />
+            <element signature="e#5565#5566#0" expanded="false" />
+            <element signature="e#5621#5622#0" expanded="false" />
+            <element signature="e#5669#5670#0" expanded="false" />
+            <element signature="e#5702#5703#0" expanded="false" />
+            <element signature="e#5731#5732#0" expanded="false" />
+            <element signature="e#5776#5777#0" expanded="false" />
+            <element signature="e#5812#5813#0" expanded="false" />
+            <element signature="e#5849#5850#0" expanded="false" />
+            <element signature="e#5882#5883#0" expanded="false" />
+            <element signature="e#5934#5935#0" expanded="false" />
+            <element signature="e#5978#5979#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -974,7 +2137,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +2144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,8 +2165,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="735">
           <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           <folding />
         </state>
       </provider>
