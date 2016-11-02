@@ -10,16 +10,16 @@
     <meta name="description" content="">
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.6/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
+<body ng-app="app">
 
 <div class="section name">
     <h3>Happy Hour</h3>
 </div>
-<div ng-controller="homeController" class="container-fluid">
-    <div id="map"></div>
-</div>
+
 <div ng-view></div>
 
 
@@ -30,8 +30,10 @@
 <script src="/webjars/angularjs/1.4.9/angular-resource.js"></script>
 <script src="/webjars/angularjs/1.4.9/angular-route.js"></script>
 <script src="/js/app.js"></script>
+<script src="js/services.js"></script>
 <script src="/js/controller.js"></script>
 <link rel="stylesheet" href="/webjars/bootstrap/3.3.6/css/bootstrap.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-animate.js"></script>
 <script
         src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
 </body>

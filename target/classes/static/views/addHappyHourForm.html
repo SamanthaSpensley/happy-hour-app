@@ -1,0 +1,43 @@
+<ng-form name="addHappyHour" ng-cloak>
+    Welcome to form
+
+    <div>
+        <label for="rName">Restaurant Name</label>
+        <input id="rName" ng-model="newHappyHour.restaurantName">
+    </div>
+    <div>
+        <label for="rLatitude">Latitude</label>
+        <input id="rLatitude" ng-model="newHappyHour.restaurantLatitude">
+    </div>
+    <div>
+        <label for="rLongitude">Longitude</label>
+        <input id="rLongitude" ng-model="newHappyHour.restaurantLongitude">
+    </div>
+    <div>
+        <label for="rNeighborhood">Neighborhood</label>
+        <input id="rNeighborhood" ng-model="newHappyHour.restaurantNeighborhood">
+    </div>
+    <div>
+        <label for="rUrl">Restaurant Url</label>
+        <input id="rUrl" ng-model="newHappyHour.restaurantUrl">
+    </div>
+    <div>
+        <label for="rMenuUrl">Restaurant Menu Url</label>
+        <input id="rMenuUrl" ng-model="newHappyHour.restaurantMenuUrl">
+    </div>
+    <div>
+        <label for="rMondayTime">Restaurant Menu Url</label>
+        <input id="rMondayTime" ng-model="newHappyHour.restaurantMondayTime">
+    </div>
+
+    <label>Monday:
+        <input type="checkbox" ng-model="checkbox.monday">
+    </label><br/>
+    <label>Tuesday:
+        <input type="checkbox" ng-model="checkbox.tuesday">
+    </label><br/>
+    <div>monday = {{checkbox.monday}}</div><br/>
+    <div>tuesday = {{checkbox.tuesday}}</div><br/>
+
+    <button ng-click="save()" aria-label="Save New Happy Hour">Save</button>
+</ng-form>

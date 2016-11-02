@@ -9,8 +9,8 @@
 }
 
 .flip-container, .front, .back {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
 }
 
 /* flip speed goes here */
@@ -92,7 +92,8 @@ img {
 .restaurant,
 .neighborhood{
     padding: 0;
-    margin-top: 5px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .maps{
@@ -147,4 +148,13 @@ img {
 .search {
     margin-bottom: 2.5vw;
     margin-top: 2.5vw;
+}
+.no-underline:hover {
+    text-decoration: none;
+}
+.ng-enter {
+    animation: fadeIn .9s;
+}
+.ng-leave {
+    animation: fadeOut .9s;
 }

@@ -1,3 +1,9 @@
-/**
- * Created by lisa on 11/1/16.
- */
+angular.module('app.services',["ngResource"])
+.factory('BarInfoDS', function ($resource) {
+    var data = $resource('/barinfo/:id', {barinfo: '@id'}, {
+        update: {
+            method: 'PUT'
+        }
+    });
+    return data;
+});
