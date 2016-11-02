@@ -23,7 +23,7 @@
 /* hide back of pane during swap */
 .front, .back {
     backface-visibility: hidden;
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -44,15 +44,23 @@
 /* back, initially hidden pane */
 .back {
     transform: rotateY(180deg);
+    box-shadow: 1px 2px 3px -1.5px #232323;
 }
 
 .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
     transform: rotateY(180deg);
 }
+img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    filter:brightness(80%);
+}
+
 .barName {
     display: flex;
     text-align: center;
-    -webkit-text-stroke: 1px black;
     color: white;
     font-size: 3.5em;
     opacity: 1;
@@ -60,14 +68,9 @@
     position: relative;
     padding-right: 4px;
     padding-left: 4px;
+    text-shadow: 0 0 0.6em rgbo(0, 0, 0, 0.5);
 }
-img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 0;
-    opacity: 0.7;
-}
+
 .url {
     text-align: center;
 }
@@ -105,12 +108,15 @@ img {
     margin-bottom: -10px;
     text-align: left;
 }
-
-
 #map{
     height:250px;
     width:100%;
-    box-shadow: 3px 3px 10px gray;
+    box-shadow: 0 2px 3px -2px #232323;
+    -moz-box-shadow: 0 2px 3px -2px #232323;
+    -webkit-box-shadow: 0 2px 3px -2px #232323;
+}
+#map img{
+    filter:brightness(100%);
 }
 #repeat{
     display: inline;

@@ -15,8 +15,8 @@
     <div class="col-md-5 col-md-offset-1" ng-repeat="bar in view.data | filter: search">
         <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
             <div class="flipper">
-                <div class="front">
-                    <img ng-src="{{bar.imageUrl}}" />
+                <div class="front filter">
+                    <img ng-src="{{bar.imageUrl}}"/>
                     <A NAME="{{bar.restaurantName}}">
                     <p class="barName">{{bar.restaurantName}}</p>
                 </div>
