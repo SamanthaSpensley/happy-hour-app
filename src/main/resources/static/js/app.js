@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ngRoute', 'ngResource', 'app.controller'])
+var app = angular.module('app', ['ngRoute', 'ngResource', 'app.controller', 'ngAnimate'])
 
     .config(function ($routeProvider, $locationProvider) {
         $routeProvider
@@ -15,3 +15,4 @@ var app = angular.module('app', ['ngRoute', 'ngResource', 'app.controller'])
             );
         $locationProvider.html5Mode(true);
     });
+

@@ -12,12 +12,12 @@
 </div>
 
 <div class="container">
-    <div class="col-md-5 col-md-offset-1" ng-repeat="bar in view.data | filter: search">
+    <div class="col-sm-6 col-lg-4 col-xs-12" ng-repeat="bar in view.data | filter: search">
         <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
             <div class="flipper">
-                <div class="front">
-                    <img ng-src="{{bar.imageUrl}}" />
-                    <A NAME="{{bar.restaurantName}}">
+                <div class="front filter">
+                    <img ng-src="{{bar.imageUrl}}"/>
+                    <A NAME="{{bar.restaurantName}}" class="no-underline">
                     <p class="barName">{{bar.restaurantName}}</p>
                 </div>
                 <div class="back">

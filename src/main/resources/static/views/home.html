@@ -17,14 +17,23 @@
             <a href="/addHappyHour">Add New Happy Hour</a>
     </div>
 
-    <div class="container">
-        <div class="col-md-5 col-md-offset-1" ng-repeat="bar in view.data | filter: search">
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                <div class="flipper">
-                    <div class="front">
-                        <img ng-src="{{bar.imageUrl}}"/>
-                        <!--<A NAME="{{bar.restaurantName}}"></A>-->
-                        <p class="barName">{{bar.restaurantName}}</p>
+<div class="container">
+    <div class="col-sm-6 col-lg-4 col-xs-12" ng-repeat="bar in view.data | filter: search">
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+                <div class="front filter">
+                    <img ng-src="{{bar.imageUrl}}"/>
+                    <p class="barName">{{bar.restaurantName}}</p>
+                </div>
+                <div class="back">
+                    <div class="row">
+                        <div class="col-md-12 name">
+                            <h3 class="restaurant">
+                                <a ng-href="{{bar.websiteUrl}}" class="websiteUrl">
+                                    {{bar.restaurantName}}
+                                </a>
+                            </h3>
+                        </div>
                     </div>
                     <div class="back">
                         <div class="row">
