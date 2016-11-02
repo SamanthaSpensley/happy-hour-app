@@ -1,43 +1,58 @@
 <ng-form name="addHappyHour" ng-cloak>
-    Welcome to form
-
+Add your Happy Hour
     <div>
         <label for="rName">Restaurant Name</label>
         <input id="rName" ng-model="newHappyHour.restaurantName">
     </div>
     <div>
         <label for="rLatitude">Latitude</label>
-        <input id="rLatitude" ng-model="newHappyHour.restaurantLatitude">
+        <input id="rLatitude" ng-model="newHappyHour.latitude">
     </div>
     <div>
         <label for="rLongitude">Longitude</label>
-        <input id="rLongitude" ng-model="newHappyHour.restaurantLongitude">
+        <input id="rLongitude" ng-model="newHappyHour.longitude">
     </div>
     <div>
         <label for="rNeighborhood">Neighborhood</label>
-        <input id="rNeighborhood" ng-model="newHappyHour.restaurantNeighborhood">
+        <input id="rNeighborhood" ng-model="newHappyHour.neighborhood">
     </div>
     <div>
         <label for="rUrl">Restaurant Url</label>
-        <input id="rUrl" ng-model="newHappyHour.restaurantUrl">
+        <input id="rUrl" ng-model="newHappyHour.image_url">
     </div>
     <div>
         <label for="rMenuUrl">Restaurant Menu Url</label>
-        <input id="rMenuUrl" ng-model="newHappyHour.restaurantMenuUrl">
-    </div>
-    <div>
-        <label for="rMondayTime">Restaurant Menu Url</label>
-        <input id="rMondayTime" ng-model="newHappyHour.restaurantMondayTime">
+        <input id="rMenuUrl" ng-model="newHappyHour.menu_url">
     </div>
 
-    <label>Monday:
-        <input type="checkbox" ng-model="checkbox.monday">
-    </label><br/>
-    <label>Tuesday:
-        <input type="checkbox" ng-model="checkbox.tuesday">
-    </label><br/>
-    <div>monday = {{checkbox.monday}}</div><br/>
-    <div>tuesday = {{checkbox.tuesday}}</div><br/>
+    <!--<label>Monday:-->
+        <!--<input type="checkbox" ng-model="checkbox.monday">-->
+    <!--</label><br/>-->
+    <!--<label>Tuesday:-->
+        <!--<input type="checkbox" ng-model="checkbox.tuesday">-->
+    <!--</label><br/>-->
+    <!--<label>Wednesday:-->
+        <!--<input type="checkbox" ng-model="checkbox.wednesday">-->
+    <!--</label><br/>-->
+    <!--<label>Thursday:-->
+        <!--<input type="checkbox" ng-model="checkbox.thursday">-->
+    <!--</label><br/>-->
+    <!--<label>Friday:-->
+        <!--<input type="checkbox" ng-model="checkbox.friday">-->
+    <!--</label><br/>-->
+    <!--<label>Saturday:-->
+        <!--<input type="checkbox" ng-model="checkbox.saturday">-->
+    <!--</label><br/>-->
+    <!--<label>Sunday:-->
+        <!--<input type="checkbox" ng-model="checkbox.sunday">-->
+    <!--</label><br/>-->
+    <!--<div>monday = {{checkbox.monday}}</div><br/>-->
+    <!--<div>tuesday = {{checkbox.tuesday}}</div><br/>-->
+    <!--<div>monday = {{checkbox.wednesday}}</div><br/>-->
+    <!--<div>tuesday = {{checkbox.thursday}}</div><br/>-->
+    <!--<div>monday = {{checkbox.friday}}</div><br/>-->
+    <!--<div>tuesday = {{checkbox.saturday}}</div><br/>-->
+    <!--<div>monday = {{checkbox.sunday}}</div><br/>-->
 
     <button ng-click="save()" aria-label="Save New Happy Hour">Save</button>
 </ng-form>

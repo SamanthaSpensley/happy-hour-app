@@ -22,6 +22,7 @@ public class BarInfoRestService {
     @RequestMapping(value = "/barinfo", method = RequestMethod.POST)
     // used to convert your incoming Json request to Model object
     public @ResponseBody BarInfo createBarInfo(@RequestBody BarInfo barInfo){
+
         return barService.create(barInfo);
     }
 }
