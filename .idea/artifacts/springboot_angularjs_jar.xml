@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="springboot-angularjs:jar">
+  <artifact type="jar" build-on-make="true" name="springboot-angularjs:jar">
     <output-path>$PROJECT_DIR$</output-path>
     <root id="archive" name="springboot-angularjs.jar">
       <element id="module-output" name="springboot-angularjs" />
