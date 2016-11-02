@@ -1,110 +1,117 @@
-
-
-<div class="search col-md-12 container">
-    <div class="form-group col-xs-12 col-md-3 col-md-offset-3">
-        <label for="restaurant" class="control-label">Search By Restaurant: </label>
-        <input placeholder="Enter a restaurant" type="text" ng-model="search.restaurantName" id="restaurant" class="form-control">
+<div class="container-fluid">
+    <div id="map"></div>
+    <div class="search col-md-12 container">
+        <div class="form-group col-xs-12 col-md-3 col-md-offset-3">
+            <label for="restaurant" class="control-label">Search By Restaurant: </label>
+            <input placeholder="Enter a restaurant" type="text" ng-model="search.restaurantName" id="restaurant"
+                   class="form-control">
+        </div>
+        <div class="form-group col-xs-12 col-md-3">
+            <label for="neighborhood" class="control-label">Search By Neighborhood: </label>
+            <input placeholder="Enter a neighborhood" type="text" ng-model="search.neighborhood" id="neighborhood"
+                   class="form-control">
+        </div>
     </div>
-    <div class="form-group col-xs-12 col-md-3">
-        <label for="neighborhood" class="control-label">Search By Neighborhood: </label>
-        <input placeholder="Enter a neighborhood" type="text" ng-model="search.neighborhood" id="neighborhood" class="form-control">
-    </div>
-</div>
 
-<div class="container">
-    <div class="col-sm-6 col-lg-4 col-xs-12" ng-repeat="bar in view.data | filter: search">
-        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-            <div class="flipper">
-                <div class="front filter">
-                    <img ng-src="{{bar.imageUrl}}"/>
-                    <A NAME="{{bar.restaurantName}}" class="no-underline">
-                    <p class="barName">{{bar.restaurantName}}</p>
-                </div>
-                <div class="back">
-                    <div class="row">
-                        <div class="col-md-12 name">
-                            <h3 class="restaurant">
-                                <a ng-href="{{bar.websiteUrl}}" class="websiteUrl">
-                                    {{bar.restaurantName}}
-                                </a>
-                            </h3>
-                        </div>
+    <div class="container">
+        <a href="/addHappyHour">Add New Happy Hour</a>
+    </div>
+
+    <div class="container">
+        <div class="col-sm-6 col-lg-4 col-xs-12" ng-repeat="bar in view.data | filter: search">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                    <div class="front filter">
+                        <img ng-src="{{bar.imageUrl}}"/>
+                        <A NAME="{{bar.restaurantName}}" class="no-underline"></A>
+                        <p class="barName">{{bar.restaurantName}}</p>
                     </div>
-                    <div class="row url">
-                        <div class="col-md-12">
-                            <h6 class="url"><a ng-href="{{bar.menuUrl}}">Happy Hour Menu</a></h6>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="col-md-6 day">
-                                <h6>Monday</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-show="bar.mondayTime">
-                                <h6>{{bar.mondayTime}}</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-hide="bar.mondayTime">
-                                <h6>No Happy Hour</h6>
-                            </div>
-                            <div class="col-md-6 day">
-                                <h6>Tuesday</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-show="bar.tuesdayTime">
-                                <h6>{{bar.tuesdayTime}}</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-hide="bar.tuesdayTime">
-                                <h6>No Happy Hour</h6>
-                            </div>
-                            <div class="col-md-6 day">
-                                <h6>Wednesday</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-show="bar.wednesdayTime">
-                                <h6>{{bar.wednesdayTime}}</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-hide="bar.wednesdayTime">
-                                <h6>No Happy Hour</h6>
-                            </div>
-                            <div class="col-md-6 day">
-                                <h6>Thursday</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-show="bar.thursdayTime">
-                                <h6>{{bar.thursdayTime}}</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-hide="bar.thursdayTime">
-                                <h6>No Happy Hour</h6>
-                            </div>
-                            <div class="col-md-6 day">
-                                <h6>Friday</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-show="bar.fridayTime">
-                                <h6>{{bar.fridayTime}}</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-hide="bar.fridayTime">
-                                <h6>No Happy Hour</h6>
-                            </div>
-                            <div class="col-md-6 day">
-                                <h6>Saturday</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-show="bar.saturdayTime">
-                                <h6>{{bar.saturdayTime}}</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-hide="bar.saturdayTime">
-                                <h6>No Happy Hour</h6>
-                            </div>
-                            <div class="col-md-6 day">
-                                <h6>Sunday</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-show="bar.sundayTime">
-                                <h6>{{bar.sundayTime}}</h6>
-                            </div>
-                            <div class="col-md-6 time" ng-hide="bar.sundayTime">
-                                <h6>No Happy Hour</h6>
+                    <div class="back">
+                        <div class="row">
+                            <div class="col-md-12 name">
+                                <h3 class="restaurant">
+                                    <a ng-href="{{bar.websiteUrl}}" class="websiteUrl">
+                                        {{bar.restaurantName}}
+                                    </a>
+                                </h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="neighborhood">{{bar.neighborhood}}</h4>
+                        <div class="row url">
+                            <div class="col-md-12">
+                                <h6 class="url"><a ng-href="{{bar.menuUrl}}">Happy Hour Menu</a></h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6 day">
+                                    <h6>Monday</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-show="bar.mondayTime">
+                                    <h6>{{bar.mondayTime}}</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-hide="bar.mondayTime">
+                                    <h6>No Happy Hour</h6>
+                                </div>
+                                <div class="col-md-6 day">
+                                    <h6>Tuesday</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-show="bar.tuesdayTime">
+                                    <h6>{{bar.tuesdayTime}}</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-hide="bar.tuesdayTime">
+                                    <h6>No Happy Hour</h6>
+                                </div>
+                                <div class="col-md-6 day">
+                                    <h6>Wednesday</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-show="bar.wednesdayTime">
+                                    <h6>{{bar.wednesdayTime}}</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-hide="bar.wednesdayTime">
+                                    <h6>No Happy Hour</h6>
+                                </div>
+                                <div class="col-md-6 day">
+                                    <h6>Thursday</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-show="bar.thursdayTime">
+                                    <h6>{{bar.thursdayTime}}</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-hide="bar.thursdayTime">
+                                    <h6>No Happy Hour</h6>
+                                </div>
+                                <div class="col-md-6 day">
+                                    <h6>Friday</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-show="bar.fridayTime">
+                                    <h6>{{bar.fridayTime}}</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-hide="bar.fridayTime">
+                                    <h6>No Happy Hour</h6>
+                                </div>
+                                <div class="col-md-6 day">
+                                    <h6>Saturday</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-show="bar.saturdayTime">
+                                    <h6>{{bar.saturdayTime}}</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-hide="bar.saturdayTime">
+                                    <h6>No Happy Hour</h6>
+                                </div>
+                                <div class="col-md-6 day">
+                                    <h6>Sunday</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-show="bar.sundayTime">
+                                    <h6>{{bar.sundayTime}}</h6>
+                                </div>
+                                <div class="col-md-6 time" ng-hide="bar.sundayTime">
+                                    <h6>No Happy Hour</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="neighborhood">{{bar.neighborhood}}</h4>
+                            </div>
                         </div>
                     </div>
                 </div>

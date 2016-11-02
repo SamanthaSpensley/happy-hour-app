@@ -51,12 +51,12 @@ angular.module('app.controller', ["app.services"])
 .controller('AddHappyHour', function ($scope, $location, BarInfoDS) {
     $scope.newHappyHour = {};
     $scope.checkbox = {};
-    //
-    //
-    // $scope.checkbox = {
-    //     monday : true,
-    //     tuesday : false
-    // };
+
+
+    $scope.checkbox = {
+        monday : true,
+        tuesday : false
+    };
 
     $scope.save = function save(){
         BarInfoDS.save($scope.newHappyHour);
