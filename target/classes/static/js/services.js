@@ -7,7 +7,7 @@ angular.module('app.services',["ngResource"])
         },
         save: {
             method: 'POST',
-            isArray: true
+            isArray: false
         }
     });
     return data;
