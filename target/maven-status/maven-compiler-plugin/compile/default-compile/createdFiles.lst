@@ -1,0 +1,6 @@
+barinfo/repositories/BarRepository.class
+barinfo/rest/BarInfoRestService.class
+barinfo/services/BarServiceJpaImplement.class
+barinfo/models/BarInfo.class
+barinfo/services/BarService.class
+barinfo/HappyHourApp.class
