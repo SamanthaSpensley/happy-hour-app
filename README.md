@@ -43,9 +43,9 @@ The $resource service is a factory which creates a resource object that lets you
 * Sign up for Pivotal Web Services
 * [Log in to Cloud Foundry CLI](http://docs.run.pivotal.io/cf-cli/getting-started.html) `cf login [-a API_URL] [-u USERNAME] [-p PASSWORD] [-o ORG] [-s SPACE]`
 * `cf push HappyHour  -m 128M`
-* "ERR npm ERR! argv "/home/vcap/app/.heroku/node/bin/node" "/home/vcap/app/.heroku/node/bin/npm" "start"" missing script: start
-* added `"start": "node"` to package.json `cf push HappyHour  -m 128M` "Build Succeeded"
-
+* Don't use node
+* reconfig pom
+* work on database connection
                                                                                                                                                                
 
 
