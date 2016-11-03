@@ -15,4 +15,3 @@ var app = angular.module('app', ['ngRoute', 'ngResource','ngAnimate', 'app.contr
             );
         $locationProvider.html5Mode(true);
     });
-

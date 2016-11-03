@@ -9,7 +9,7 @@ angular.module('app.controller', ["app.services"])
         console.log($scope.view.data)
 
         $http.get('http://localhost:8080/barinfo')
-            .then (function(data) {
+            .then(function (data) {
                 $scope.view.data = data.data;
                 console.log($scope.view.data)
                 addBars($scope.view.data);
@@ -52,7 +52,7 @@ angular.module('app.controller', ["app.services"])
             google.maps.event.trigger(selectedMarker, 'click');
         }
 
-        var addBars = function(info) {
+        var addBars = function (info) {
             var cities = [];
             for (var i = 0; i < info.length; i++) {
                 cities.push({
@@ -70,22 +70,21 @@ angular.module('app.controller', ["app.services"])
     })
 
 
-
     .controller('AddHappyHour', function ($scope, $location, BarInfoDS) {
         $scope.newHappyHour = {};
         $scope.checkbox = {};
 
         $scope.checkbox = {
-            monday : false,
-            tuesday : false,
-            wednesday : false,
-            thursday : false,
-            friday : false,
-            saturday : false,
-            sunday : false
+            monday: false,
+            tuesday: false,
+            wednesday: false,
+            thursday: false,
+            friday: false,
+            saturday: false,
+            sunday: false
         };
 
-        $scope.save = function save(){
+        $scope.save = function save() {
             BarInfoDS.save($scope.newHappyHour);
             // BarInfoDS.save($scope.checkbox);
             $location.path("/");
