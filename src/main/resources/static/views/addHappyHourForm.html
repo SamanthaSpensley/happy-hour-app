@@ -1,77 +1,62 @@
-<ng-form name="addHappyHour" ng-cloak>
-Add your Happy Hour
-    <div>
-        <label for="rName">Restaurant Name</label>
-        <input id="rName" ng-model="newHappyHour.restaurantName">
-    </div>
-    <div>
-        <label for="rLatitude">Latitude</label>
-        <input id="rLatitude" ng-model="newHappyHour.latitude">
-    </div>
-    <div>
-        <label for="rLongitude">Longitude</label>
-        <input id="rLongitude" ng-model="newHappyHour.longitude">
-    </div>
-    <div>
-        <label for="rNeighborhood">Neighborhood</label>
-        <input id="rNeighborhood" ng-model="newHappyHour.neighborhood">
-    </div>
-    <div>
-        <label for="rUrl">Restaurant Image Url</label>
-        <input id="rUrl" ng-model="newHappyHour.imageUrl">
-    </div>
-    <div>
-        <label for="rWebsiteUrl">Website Menu Url</label>
-        <input id="rWebsiteUrl" ng-model="newHappyHour.websiteUrl">
-    </div>
-    <div>
-        <label for="rMenuUrl">Restaurant Menu Url</label>
-        <input id="rMenuUrl" ng-model="newHappyHour.menuUrl">
-    </div>
+<form name="addHappyHour" ng-cloak class="form-style-8">
+    <h2>Add your Happy Hour</h2>
 
-    <label>Monday:
-        <input type="checkbox" ng-model="checkbox.monday" ng-true-value="true" ng-false-value="false">
-        <div ng-show="checkbox.monday">
-            <input id="rMondayTime" ng-model="newHappyHour.mondayTime">
-        </div>
-    </label><br/>
-    <label>Tuesday:
-        <input type="checkbox" ng-model="checkbox.tuesday" ng-true-value="true" ng-false-value="false">
-        <div ng-show="checkbox.tuesday">
-            <input id="rTuesdayTime" ng-model="newHappyHour.tuesdayTime">
-        </div>
-    </label><br/>
-    <label>Wednesday:
-        <input type="checkbox" ng-model="checkbox.wednesday" ng-true-value="true" ng-false-value="false">
-        <div ng-show="checkbox.wednesday">
-            <input id="rWednesdayTime" ng-model="newHappyHour.wednesdayTime">
-        </div>
-    </label><br/>
-    <label>Thursday:
-        <input type="checkbox" ng-model="checkbox.thursday" ng-true-value="true" ng-false-value="false">
-        <div ng-show="checkbox.thursday">
-            <input id="rThursdayTime" ng-model="newHappyHour.thursdayTime">
-        </div>
-    </label><br/>
-    <label>Friday:
-        <input type="checkbox" ng-model="checkbox.friday" ng-true-value="true" ng-false-value="false">
-        <div ng-show="checkbox.friday">
-            <input id="rFridayTime" ng-model="newHappyHour.fridayTime">
-        </div>
-    </label><br/>
-    <label>Saturday:
-        <input type="checkbox" ng-model="checkbox.saturday" ng-true-value="true" ng-false-value="false">
-        <div ng-show="checkbox.saturday">
-            <input id="rSaturdayTime" ng-model="newHappyHour.saturdayTime">
-        </div>
-    </label><br/>
-    <label>Sunday:
-        <input type="checkbox" ng-model="checkbox.sunday" ng-true-value="true" ng-false-value="false">
-        <div ng-show="checkbox.sunday">
-            <input id="rSundayTime" ng-model="newHappyHour.sundayTime">
-        </div>
-    </label><br/>
+    <label for="rName">Restaurant Name</label>
+    <input type="text" id="rName" ng-model="newHappyHour.restaurantName" placeholder="Brider" required>
 
+    <label for="rLatitude">Latitude</label>
+    <input type="text" id="rLatitude" ng-model="newHappyHour.latitude" placeholder="39.743502" required>
+
+    <label for="rLongitude">Longitude</label>
+    <input type="text" id="rLongitude" ng-model="newHappyHour.longitude" placeholder="-104.22123" required>
+
+    <label for="rNeighborhood">Neighborhood</label>
+    <input type="text" id="rNeighborhood" ng-model="newHappyHour.neighborhood" placeholder="LoHi" required>
+
+    <label for="rUrl">Restaurant Image Url</label>
+    <input type="url" id="rUrl" ng-model="newHappyHour.imageUrl" placeholder="http://www.w3schools.com/css/trolltunga.jpg" required>
+
+    <label for="rWebsiteUrl">Website Menu Url</label>
+    <input type="url" id="rWebsiteUrl" ng-model="newHappyHour.websiteUrl" placeholder="http://www.denverbrider.com" required>
+
+    <label for="rMenuUrl">Restaurant Menu Url</label>
+    <input type="url" id="rMenuUrl" ng-model="newHappyHour.menuUrl" placeholder="http://www.denverbrider.com/" required>
+
+
+    <label for="rMonday">Monday:</label>
+    <input type="checkbox" id="rMonday" ng-model="checkbox.monday" ng-true-value="true" ng-false-value="false">
+    <input type="text" ng-show="checkbox.monday" id="rMondayTime" ng-model="newHappyHour.mondayTime" placeholder="4:00pm - 6:00pm">
+    <br>
+
+    <label for="rTuesday">Tuesday:</label>
+    <input type="checkbox" id="rTuesday" ng-model="checkbox.tuesday" ng-true-value="true" ng-false-value="false">
+    <input type="text" ng-show="checkbox.tuesday" id="rTuesdayTime" ng-model="newHappyHour.tuesdayTime" placeholder="4:00pm - 6:00pm">
+    <br>
+
+    <label for="rWednesday">Wednesday:</label>
+    <input type="checkbox" id="rWednesday" ng-model="checkbox.wednesday" ng-true-value="true" ng-false-value="false">
+    <input type="text" ng-show="checkbox.wednesday" id="rWednesdayTime" ng-model="newHappyHour.wednesdayTime" placeholder="4:00pm - 6:00pm">
+    <br>
+
+    <label for="rThursday">Thursday:</label>
+    <input type="checkbox" id="rThursday" ng-model="checkbox.thursday" ng-true-value="true" ng-false-value="false">
+    <input type="text" ng-show="checkbox.thursday" id="rThursdayTime" ng-model="newHappyHour.thursdayTime" placeholder="4:00pm - 6:00pm">
+    <br>
+
+    <label for="rFriday">Friday:</label>
+    <input type="checkbox" id="rFriday" ng-model="checkbox.friday" ng-true-value="true" ng-false-value="false">
+    <input type="text" ng-show="checkbox.friday" id="rFridayTime" ng-model="newHappyHour.fridayTime" placeholder="4:00pm - 6:00pm">
+    <br>
+
+    <label for="rSaturday">Saturday:</label>
+    <input type="checkbox" id="rSaturday" ng-model="checkbox.saturday" ng-true-value="true" ng-false-value="false">
+    <input type="text" ng-show="checkbox.saturday" id="rSaturdayTime" ng-model="newHappyHour.saturdayTime" placeholder="4:00pm - 6:00pm">
+    <br>
+
+    <label for="rSunday">Sunday:</label>
+    <input type="checkbox" id="rSunday" ng-model="checkbox.sunday" ng-true-value="true" ng-false-value="false">
+    <input type="text" ng-show="checkbox.sunday" id="rSundayTime" ng-model="newHappyHour.sundayTime" placeholder="4:00pm - 6:00pm">
+    <br>
 
     <button ng-click="save()" aria-label="Save New Happy Hour">Save</button>
-</ng-form>
+</form>

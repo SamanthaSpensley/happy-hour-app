@@ -1,20 +1,29 @@
-<div class="container-fluid">
-    <div id="map"></div>
-    <div class="search col-md-12 container">
-        <div class="form-group col-xs-12 col-md-3 col-md-offset-3">
-            <label for="restaurant" class="control-label">Search By Restaurant: </label>
-            <input placeholder="Enter a restaurant" type="text" ng-model="search.restaurantName" id="restaurant"
-                   class="form-control">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Happy Hour<span><h6> Find Denver's Best Happy Hour</h6></span></a>
         </div>
-        <div class="form-group col-xs-12 col-md-3">
-            <label for="neighborhood" class="control-label">Search By Neighborhood: </label>
-            <input placeholder="Enter a neighborhood" type="text" ng-model="search.neighborhood" id="neighborhood"
-                   class="form-control">
-        </div>
-        <div class="form-group col-xs-12 col-md-3">
-            <a href="/addHappyHour">Add New Happy Hour</a>
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input placeholder="Enter a restaurant" type="text" ng-model="search.restaurantName" id="restaurant" class="form-control" />
+                    <input placeholder="Enter a neighborhood" type="text" ng-model="search.neighborhood" id="neighborhood" class="form-control"/>
+                </div>
+            </form>
+                <!--<a class="navbar-brand" href="/addHappyHour">Add New HH</a>-->
         </div>
     </div>
+</nav>
+
+<div class="container-fluid">
+
+    <div id="map"></div>
 
     <div class="container">
         <div class="col-sm-6 col-lg-4 col-xs-12" ng-repeat="bar in view.data | filter: search">
@@ -29,7 +38,7 @@
                         <div class="row">
                             <div class="col-md-12 name">
                                 <h3 class="restaurant">
-                                    <a ng-href="{{bar.websiteUrl}}" class="websiteUrl">
+                                    <a ng-href="{{bar.websiteUrl}}" class="websiteUrl" target="_blank">
                                         {{bar.restaurantName}}
                                     </a>
                                 </h3>
@@ -37,7 +46,12 @@
                         </div>
                         <div class="row url">
                             <div class="col-md-12">
-                                <h6 class="url"><a ng-href="{{bar.menuUrl}}">Happy Hour Menu</a></h6>
+                                <h6 class="url"><a ng-href="{{bar.menuUrl}}" target="_blank">Happy Hour Menu</a></h6>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="neighborhood">{{bar.neighborhood}}</h4>
                             </div>
                         </div>
                         <div class="row">
@@ -107,15 +121,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h4 class="neighborhood">{{bar.neighborhood}}</h4>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="form-group col-xs-12 col-md-3">
+            <a href="/addHappyHour"><button class="btn">Add New Happy Hour</button></a>
+        </div>
+
     </div>
 </div>
 
