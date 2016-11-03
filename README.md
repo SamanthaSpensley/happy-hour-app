@@ -36,15 +36,15 @@ The $resource service is a factory which creates a resource object that lets you
 ##### [Deploying Springs Apps w Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/gsg-spring.html)
    
 * add some dependencies to pom.xml
-* [download Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#mac)
-* [Cloud Foundry CLI GitHub](https://github.com/cloudfoundry/cli#downloads)
+* [Installing Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#mac)
+* [Cloud Foundry CLI Getting Started](https://github.com/cloudfoundry/cli#downloads)
 * `brew tap cloudfoundry/tap`
 * `brew install cf-cli`
 * Sign up for Pivotal Web Services
 * [Log in to Cloud Foundry CLI](http://docs.run.pivotal.io/cf-cli/getting-started.html) `cf login [-a API_URL] [-u USERNAME] [-p PASSWORD] [-o ORG] [-s SPACE]`
 * `cf push HappyHour  -m 128M`
-* 
-
+* "ERR npm ERR! argv "/home/vcap/app/.heroku/node/bin/node" "/home/vcap/app/.heroku/node/bin/npm" "start"" missing script: start
+* added `"start": "node"` to package.json `cf push HappyHour  -m 128M` "Build Succeeded"
 
                                                                                                                                                                
 
