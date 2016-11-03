@@ -30,7 +30,22 @@ The $resource service is a factory which creates a resource object that lets you
 
 * you can specify a new update action that uses the PUT HTTP verb. 
 
-* you can even overwrite the whole actions list and specify your own:
+* you can even overwrite the whole actions list and specify your own
+
+
+##### [Deploying Springs Apps w Cloud Foundry](https://docs.cloudfoundry.org/buildpacks/java/gsg-spring.html)
+   
+* add some dependencies to pom.xml
+* [download Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html#mac)
+* [Cloud Foundry CLI GitHub](https://github.com/cloudfoundry/cli#downloads)
+* `brew tap cloudfoundry/tap`
+* `brew install cf-cli`
+* Sign up for Pivotal Web Services
+* [Log in to Cloud Foundry CLI](http://docs.run.pivotal.io/cf-cli/getting-started.html) `cf login [-a API_URL] [-u USERNAME] [-p PASSWORD] [-o ORG] [-s SPACE]`
+* `cf push HappyHour  -m 128M`
+* 
+
+
                                                                                                                                                                
 
 
