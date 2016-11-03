@@ -43,9 +43,6 @@ The $resource service is a factory which creates a resource object that lets you
 * Sign up for Pivotal Web Services
 * [Log in to Cloud Foundry CLI](http://docs.run.pivotal.io/cf-cli/getting-started.html) `cf login [-a API_URL] [-u USERNAME] [-p PASSWORD] [-o ORG] [-s SPACE]`
 * `cf push HappyHour  -m 128M`
-* Don't use node
-* reconfig pom
-* work on database connection
 
 * Pivotal Web Services > Add Service > ClearDB MySQL Database
 * `cf push HappyHour -m 256M -p target/HappyHourApp-1.0-SNAPSHOT.jar`
@@ -54,7 +51,7 @@ The $resource service is a factory which creates a resource object that lets you
 <!--* `cf ssh -N -L 63306:us-cdbr-iron-east-04.cleardb.net:3306 HappyHour`-->
 <!--* `cf ssh HappyHour` (in a different command window)-->
 * open MySQL workbench, used env variables to run sql dump
-                                                                                                                                                
+* maven projects on right side-bar > right click on package > Run Maven Build                                           
 
 
 
