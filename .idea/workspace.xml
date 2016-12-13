@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65edb357-8104-4696-aacb-26d1091ccd58" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/HappyHourApp-1.0-SNAPSHOT.jar.original" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-angularjs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-angularjs.jar" afterPath="$PROJECT_DIR$/springboot-angularjs.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/app.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/controller.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/services.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="$PROJECT_DIR$/target/classes/static/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/app.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/controller.js" afterPath="$PROJECT_DIR$/target/classes/static/js/controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/js/services.js" afterPath="$PROJECT_DIR$/target/classes/static/js/services.js" />
-    </list>
+    <list default="true" id="65edb357-8104-4696-aacb-26d1091ccd58" name="Default" comment="" />
     <ignored path="springboot-angularjs.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -755,16 +733,16 @@
       <workItem from="1478096547295" duration="33000" />
       <workItem from="1478102681257" duration="58000" />
       <workItem from="1478102816376" duration="2350000" />
-      <workItem from="1478207790524" duration="91000" />
+      <workItem from="1478207790524" duration="431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29192000" />
+    <option name="totallyTimeSpent" value="29532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="23" width="1257" height="741" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -773,7 +751,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5010532" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819724" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34457833" sideWeight="0.49894682" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32966506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28674698" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
