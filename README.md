@@ -5,4 +5,4 @@ Happy Hour allows users to uncover when and where Denver's best happy hours are 
 Java, Spring Boot, AngularJS, MySQL, Cloud Foundry, Google Maps API, Bootstrap, HTML5, CSS3
 
 ### Deployed Site:
-View Happy Hour here: @http://happyhour.cfapps.io/
+[View Live Here](http://happyhour.cfapps.io/)
